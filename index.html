@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+    <style>
+        .success, .error {
+            color: white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+        .success {
+            background: green;
+        }
+        .error {
+            background: red;
+        }
+    </style>
+    <title>Bool List</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Product List</h3>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Product</th>
+                    <th>Price (Tk.)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="product-list">
+                <tr>
+                    <td>0001</td>
+                    <td>Prduct A</td>
+                    <td>1000</td>
+                    <td><a href="#"> Add to cart</aa></td>
+                </tr>
+                <tr>
+                    <td>0002</td>
+                    <td>Prduct B</td>
+                    <td>1500</td>
+                    <td><a href="#"> Add to cart</aa></td>
+                </tr>
+                <tr>
+                    <td>0003</td>
+                    <td>Prduct C</td>
+                    <td>1700</td>
+                    <td><a href="#"> Add to cart</aa></td>
+                </tr>
+                <tr>
+                    <td>0004</td>
+                    <td>Prduct D</td>
+                    <td>2000</td>
+                    <td><a href="#"> Add to cart</aa></td>
+                </tr>
+                <tr>
+                    <td>0005</td>
+                    <td>Prduct E</td>
+                    <td>1200</td>
+                    <td><a href="#"> Add to cart</aa></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h3>Cart</h3>
+        <div id="message">
+            <table id="table" class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Product</th>
+                    <th>Unit Price (Tk)</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="cart-list">
+            </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+    
+</body>
+</html>
